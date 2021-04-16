@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="my-3">
+            <a class="navbar-brand" href="#">Products</a>
+            <button
+              type="button"
+              class="btn btn-danger btn-sm float-right"
+              data-toggle="modal"
+              data-target="#myModal"
+            >
+              Add Product
+            </button>
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="head">
+                    <h1 class="text-center my-3">Add Product</h1>
+                  </div>
+                  <div class="modal-body">Modal body..</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-3">
+          <h6>CATEGORIES</h6>
+          <div class="category">
+            <p>Books</p>
+            <p>Hoodie/T-shirt</p>
+            <p>Bags</p>
+            <p>Misc</p>
+          </div>
+          <div>
+            <p class="filter-price">FILTER BY PRICE</p>
+          </div>
+          <div>
+            <input type="range" min="1" max="100" value="50" class="slider" />
+          </div>
+          <div>
+            <button class="rang-button">Filter</button>
+            <p class="rang-amount">Price $29-$599</p>
+          </div>
+
+          <div class="top-product py-5">
+            <h6>TOP PRODUCTS</h6>
+
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="https://rukminim1.flixcart.com/image/416/416/kbnz8nk0/mug/x/s/c/cute-coffee-cups-for-best-friends-best-friend-ever-quotes-original-imafsy4qksjz6amf.jpeg?q=70"
+                />
+              </div>
+              <div class="col-8">
+                <span>Mug Images</span>
+                <br />
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <br />
+                <span>$99.00</span>
+              </div>
+            </div>
+            <hr />
+
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="https://4.imimg.com/data4/YT/TC/MY-12041309/plain-t-shirt-500x500.png"
+                />
+              </div>
+              <div class="col-8">
+                <span>T-shirt blue</span>
+                <br />
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <br />
+                <span>$120.00</span>
+              </div>
+            </div>
+            <hr />
+
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="https://yi-files.s3.amazonaws.com/products/19000/19745/19757-cover.jpg"
+                />
+              </div>
+              <div class="col-8">
+                <span>Hard Coverbook</span>
+                <br />
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <br />
+                <span>$59.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-9">
+          <div class="row">
+            <div class="col-6">
+              <p class="my-2">Showing 1-8 of 9 results</p>
+            </div>
+            <div class="col-6">
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm float-right"
+                  data-toggle="dropdown"
+                >
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/oyhemtbkghuegy9gpo0i/joyride-run-flyknit-running-shoe-sqfqGQ.jpg"
+                  alt="Card image"
+                />
+                <div class="card-body text-center">
+                  <b>Plain Notebook</b>
+                  <p>$399.00 to $109.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- javascript -->
+          <p id="demo1"></p>
+          <p id="demo2"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
